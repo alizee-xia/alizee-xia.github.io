@@ -49,7 +49,7 @@ section { padding:60px 30px; max-width:1000px; margin:40px auto; border-radius:1
 @media screen and (max-width: 767px) {
   .menu-toggle { display:block; }
   .navbar .nav-links { display:none; width:100%; flex-direction:column; margin-top:10px; gap:10px; }
-  .navbar .nav-links.active { display:flex; }
+  .navbar .nav-links.show { display:flex; }
   .controls { margin-top:10px; width:100%; display:flex; justify-content:flex-start; gap:10px; }
   section { padding:30px 15px; }
   .projects-container { grid-template-columns:1fr; }
