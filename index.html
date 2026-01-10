@@ -4,16 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Alizée XIA – IoT & Networks</title>
-
 <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-
 </head>
 <body>
 
 <nav class="navbar">
   <div class="logo">Alizée XIA</div>
-
+  <button class="menu-toggle" onclick="toggleMenu()">☰</button>
   <ul class="nav-links">
     <li><a href="#home">Home</a></li>
     <li><a href="#about">About</a></li>
@@ -22,7 +20,6 @@
     <li><a href="#languages">Languages</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
-
   <div class="controls">
     <button onclick="setLang('fr')">FR</button>
     <button onclick="setLang('en')">EN</button>
@@ -38,8 +35,8 @@
 <section id="about" class="fade">
   <h2 id="aboutTitle">À propos</h2>
   <p id="aboutText">
-    Je suis étudiante en Master Informatique à l’Université Paris-Saclay, spécialisée en IoT et réseaux.
-    Je développe en C++, Java, Python et Web, et je travaille sur des systèmes connectés et interactifs.
+    Je suis étudiante en Master Informatique à l’Université Paris-Saclay,
+    spécialisée en IoT et réseaux. Je développe en C++, Java, Python et Web.
   </p>
 </section>
 
@@ -63,23 +60,19 @@
 
 <section id="projects" class="fade">
   <h2 id="projectsTitle">Projets</h2>
-
   <div class="projects-container">
     <div class="project">
       <h3>BioFolia – JavaFX</h3>
       <p>Application interactive “Arbre de vie”.</p>
     </div>
-
     <div class="project">
       <h3>Robot IoT</h3>
-      <p>Robot contrôlé à distance avec Raspberry Pi et MQTT.</p>
+      <p>Robot contrôlé à distance avec Raspberry Pi & MQTT.</p>
     </div>
-
     <div class="project">
       <h3>Voting Website</h3>
       <p>Site web de vote avec HTML, CSS, JavaScript, PHP et SQL.</p>
     </div>
-
     <div class="project">
       <h3>Jeux C++ & Java</h3>
       <p>2048, Lapin & Renard, Rancher, Desert Interdit.</p>
@@ -104,6 +97,7 @@
 
 <script src="lang.js"></script>
 <script src="scroll.js"></script>
+<script src="menu.js"></script>
 
 </body>
 </html>
