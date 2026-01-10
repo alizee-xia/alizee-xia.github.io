@@ -1,0 +1,53 @@
+body{
+  margin:0;
+  font-family:'Orbitron',sans-serif;
+  background:linear-gradient(135deg,#e0f7fa,#b2ff59);
+  color:#003333;
+}
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 30px;
+  background:white;
+  box-shadow:0 0 10px rgba(0,150,120,0.4);
+  position:sticky;
+  top:0;
+}
+
+.nav-links{list-style:none;display:flex;gap:20px;}
+.nav-links a{text-decoration:none;color:#00796b;font-weight:bold;}
+.nav-links a:hover{color:#004d40;text-shadow:0 0 5px #26a69a;}
+
+section{
+  max-width:1000px;
+  margin:40px auto;
+  padding:40px;
+  background:white;
+  border-radius:15px;
+  box-shadow:0 0 15px rgba(0,150,120,0.2);
+}
+
+.skills span{
+  display:inline-block;
+  padding:8px 15px;
+  margin:6px;
+  background:#e0f2f1;
+  border:1px solid #00796b;
+  border-radius:8px;
+}
+
+.project{margin:20px 0;padding:15px;border-left:4px solid #00796b;}
+
+.btn{
+  display:inline-block;
+  padding:12px 20px;
+  background:#00796b;
+  color:white;
+  border-radius:8px;
+  text-decoration:none;
+}
+
+.fade{opacity:0;transform:translateY(30px);transition:0.8s;}
+.fade.show{opacity:1;transform:translateY(0);}
