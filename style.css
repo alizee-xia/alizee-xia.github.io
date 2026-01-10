@@ -26,7 +26,7 @@ body {
 .navbar .nav-links li a { text-decoration:none; color:#00796b; font-weight:bold; padding:8px 12px; transition:0.3s; }
 .navbar .nav-links li a:hover { color:#004d40; text-shadow:0 0 5px #26a69a,0 0 10px #26a69a; }
 
-.menu-toggle { display:none; background:none; border:none; font-size:1.8em; color:#00796b; cursor:pointer; }
+.menu-toggle { display:none; background:none; border:none; font-size:2em; color:#00796b; cursor:pointer; }
 
 section { padding:60px 30px; max-width:1000px; margin:40px auto; border-radius:15px; background: rgba(255,255,255,0.85); box-shadow:0 0 10px rgba(0,200,120,0.2); }
 
