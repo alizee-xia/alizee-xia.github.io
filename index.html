@@ -17,6 +17,7 @@
     <li><a href="#about" data-i18n="navAbout">About</a></li>
     <li><a href="#skills" data-i18n="navSkills">Skills</a></li>
     <li><a href="#projects" data-i18n="navProjects">Projects</a></li>
+    <li><a href="#experience" data-i18n="navExperience">Expériences</a></li>
     <li><a href="#languages" data-i18n="navLanguages">Languages</a></li>
     <li><a href="#contact" data-i18n="navContact">Contact</a></li>
   </ul>
@@ -28,57 +29,166 @@
 
 <section id="home" class="fade">
   <h1 data-i18n="homeTitle">Bonjour, je suis Alizée XIA</h1>
-  <p data-i18n="homeText">Étudiante en Master Informatique – IoT </p>
+  <p data-i18n="homeText">Future étudiante en Master 2 Informatique pour la Science des Données (ISD – parcours IoT)</p>
+  <p data-i18n="homeSub">Recherche une alternance de 12 mois · Disponible septembre 2026</p>
   <a href="CV_XIA_2026.pdf" class="btn">Télécharger mon CV</a>
 </section>
 
 <section id="about" class="fade">
   <h2 data-i18n="aboutTitle">À propos</h2>
   <p data-i18n="aboutText">
-    Je suis étudiante en Master Informatique à l’Université Paris-Saclay,
-    spécialisée en IoT et réseaux. Je développe en C++, Java, Python et Web.
+    Future étudiante en Master 2 ISD (parcours IoT) à l'Université Paris-Saclay.
+    Passionnée par le développement logiciel et la conception d'applications robustes (Java, C++, Python),
+    je maîtrise la programmation orientée objet, le développement full-stack (PHP, JavaScript, SQL) 
+    ainsi que les environnements IoT et DevOps (Docker, Prometheus).
   </p>
 </section>
 
 <section id="skills" class="fade">
   <h2 data-i18n="skillsTitle">Compétences</h2>
+
+  <h3 data-i18n="skillsLang">Langages</h3>
   <div class="skills-container">
-    <span class="tag">C++</span>
+    <span class="tag">C++/C</span>
     <span class="tag">Java</span>
     <span class="tag">Python</span>
-    <span class="tag">HTML</span>
-    <span class="tag">CSS</span>
     <span class="tag">JavaScript</span>
     <span class="tag">SQL</span>
-    <span class="tag">MQTT</span>
-    <span class="tag">IoT</span>
-    <span class="tag">Networks</span>
-    <span class="tag">Linux</span>
-    <span class="tag">HCI</span>
+    <span class="tag">OCaml</span>
+    <span class="tag">JavaFX</span>
   </div>
+
+  <h3 data-i18n="skillsWeb">Web</h3>
+  <div class="skills-container">
+    <span class="tag">HTML/CSS</span>
+    <span class="tag">PHP</span>
+  </div>
+  
+  <h3 data-i18n="skillsIoT">IoT / Réseaux</h3>
+  <div class="skills-container">  
+    <span class="tag">MQTT</span>
+    <span class="tag">TCP/IP</span>
+    <span class="tag">Raspberry Pi</span>
+    <span class="tag">Robotique</span>
+  </div>
+    
+  <h3 data-i18n="skillsDevOps">DevOps / Outils</h3>
+  <div class="skills-container">  
+    <span class="tag">Linux</span>
+    <span class="tag">Git/GitHub</span>
+    <span class="tag">Docker</span>
+    <span class="tag">Prometheus</span>
+    <span class="tag">Grafana</span>
+    <span class="tag">Pack office</span>
+  </div>
+    
+  <h3 data-i18n="skillsData">IA / Data</h3>
+  <div class="skills-container"> 
+    <span class="tag">NumPy</span>
+    <span class="tag">Pandas</span>
+    <span class="tag">Sklearn</span>
+    <span class="tag">Deep Learning</span>
+  </div>
+  
+    <h3 data-i18n="skillsMethods">Méthodes</h3>
+    <div class="skills-container"> 
+      <span class="tag">HCI/IHM</span>
+      <span class="tag">Tests fonctionnels</span>      
+    </div>
 </section>
 
+  
 <section id="projects" class="fade">
   <h2 data-i18n="projectsTitle">Projets</h2>
   <div class="projects-container">
+    
     <div class="project">
-      <h3>BioFolia – JavaFX</h3>
-      <p>Application interactive “Arbre de vie”.</p>
+      <h3>Mini-Projet IoT – HC-SR04</h3>
+      <p data-i18n="proj1">Monitoring temps réel d'un capteur ultrasons via MQTT, Docker, Prometheus et Grafana. Implémentation de la QoS MQTT et visualisation des données.</p>
+      <div class="skills-container">
+        <span class="tag">MQTT</span>
+        <span class="tag">Docker</span>
+        <span class="tag">Prometheus</span>
+        <span class="tag">Grafana</span>
+      </div>
     </div>
+
+    <div class="project">
+      <h3>Bookerfly</h3>
+      <p data-i18n="proj2">Conception et évaluation d'une e-reader collaborative avec annotations, group reads et snippets. Tests utilisateurs avec la méthode NASA-TLX.</p>
+      <div class="skills-container">
+        <span class="tag">JavaFX</span>
+        <span class="tag">HCI</span>
+        <span class="tag">Prototypage</span>
+      </div>
+    </div>
+
     <div class="project">
       <h3>Robot IoT</h3>
-      <p>Robot contrôlé à distance avec Raspberry Pi & MQTT.</p>
+      <p data-i18n="proj3">Télécommande d'un robot via réseaux avec communication temps réel.</p>
+      <div class="skills-container">
+        <span class="tag">Raspberry Pi</span>
+        <span class="tag">MQTT</span>
+        <span class="tag">Python</span>
+      </div>
     </div>
+
     <div class="project">
-      <h3>Voting Website</h3>
-      <p>Site web de vote avec HTML, CSS, JavaScript, PHP et SQL.</p>
+      <h3>Site de vote</h3>
+      <p data-i18n="proj4">Application web complète front-end et back-end avec gestion de base de données et sécurisation des formulaires.</p>
+      <div class="skills-container">
+        <span class="tag">HTML/CSS</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">PHP</span>
+        <span class="tag">SQL</span>
+      </div>
     </div>
+
     <div class="project">
-      <h3>Jeux C++ & Java</h3>
-      <p>2048, Lapin & Renard, Rancher, Desert Interdit.</p>
+      <h3>BioFolia</h3>
+      <p data-i18n="proj5">Application interactive "arbre de vie" en JavaFX avec conception centrée utilisateur.</p>
+      <div class="skills-container">
+        <span class="tag">JavaFX</span>
+        <span class="tag">HCI</span>
+      </div>
     </div>
+
+    <div class="project">
+      <h3>Jeux Java / C++</h3>
+      <p data-i18n="proj6">2048, Lapin &amp; Renard, Désert Interdit, Rancher — conception algorithmique et POO.</p>
+      <div class="skills-container">
+        <span class="tag">Java</span>
+        <span class="tag">C++</span>
+        <span class="tag">POO</span>
+      </div>
+    </div>
+    
   </div>
 </section>
+
+<section id="experience" class="fade">
+  <h2 data-i18n="expTitle">Expériences</h2>
+
+  <div class="project">
+    <h3 data-i18n="exp1Title">Stage de Recherche – Laboratoire LISN, Équipe ROCS</h3>
+    <p><em>Mai – Juin 2026</em></p>
+    <p data-i18n="exp1Text">Implémentation et évaluation d'algorithme d'économie d'énergie pour les réseaux Wi-Fi 7 (IEEE 802.11be), adapté aux applications time-sensitive.</p>
+  </div>
+
+  <div class="project">
+    <h3 data-i18n="exp2Title">TER – Laboratoire LISN, Équipe ROCS</h3>
+    <p><em>Janvier – Avril 2026</em></p>
+    <p data-i18n="exp2Text">Analyse théorique des mécanismes d'économie d'énergie Wi-Fi 7 (MLO). Étude des modèles existants et rédaction de rapport scientifique.</p>
+  </div>
+
+  <div class="project">
+    <h3 data-i18n="exp3Title">Serveuse Polyvalente – Chikayo</h3>
+    <p><em>Été 2024</em></p>
+    <p data-i18n="exp3Text">Accueil clients, gestion des stocks, travail en équipe dans un environnement dynamique.</p>
+  </div>
+
+</section>
+
 
 <section id="languages" class="fade">
   <h2 data-i18n="langTitle">Langues</h2>
@@ -93,6 +203,7 @@
 <section id="contact" class="fade">
   <h2 data-i18n="contactTitle">Contact</h2>
   <p>Email : xiaalizee@gmail.com</p>
+  <p data-i18n="contactAvail">Disponible pour une alternance à partir de septembre 2026 · Paris</p>
 </section>
 
 <script src="lang.js"></script>
